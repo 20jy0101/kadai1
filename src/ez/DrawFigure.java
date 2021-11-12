@@ -17,7 +17,11 @@ public class DrawFigure {
 		circle.setColor(Color.RED);
 
 		//背景色を設定
+<<<<<<< HEAD
 		EZ.setBackgroundColor(Color.PINK);
+=======
+		EZ.setBackgroundColor(Color.YELLOW);
+>>>>>>> refs/heads/test
 
 		//線を描く(始点x, 始点y, 終点x, 終点y, 色, 線幅)
 		EZ.addLine(40,0, 40,50, Color.RED, 1);
