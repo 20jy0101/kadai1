@@ -12,6 +12,9 @@ import java.awt.Color;
 public class DrawFigure {
 	public static void main(String[] args) {
 		EZ.initialize(400, 400); // 画面の大きさを決める．
+		// 円を描く.(中心座標 x, 中心座標 y, 幅,高さ,色,塗りつぶし)
+		EZCircle circle = EZ.addCircle(100, 100, 150, 150, Color.BLUE, true);
+		circle.setColor(Color.RED);
 
 		//背景色を設定
 		EZ.setBackgroundColor(Color.LIGHT_GRAY);
